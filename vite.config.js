@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.tsx"),
-      name: "bechbox-ui",
+      name: "bechbox.ui",
 
       fileName: "index",
     },
