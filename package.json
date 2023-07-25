@@ -1,0 +1,21 @@
+{
+  "name": "bechbox.ui",
+  "version": "1.0.0",
+  "description": "BechBox UI component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build && tsc"
+  },
+  "author": "Mikkel Bech, BechBox",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.16",
+    "react": "^18.2.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
