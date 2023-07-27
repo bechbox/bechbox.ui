@@ -1,0 +1,39 @@
+.ui-avatargroup {
+  font-family: var(--ui-font);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.ui-avatargroup--small {
+  font-size: var(--ui-text-sm);
+}
+
+.ui-avatargroup--medium {
+  font-size: var(--ui-text-md);
+}
+
+.ui-avatargroup--large {
+  font-size: var(--ui-text-lg);
+}
+
+.ui-avatargroup--xlarge {
+  font-size: var(--ui-text-xl);
+}
+
+.ui-avatargroup-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-avatargroup-label {
+  font-weight: 600;
+  color: var(--ui-color-dark);
+}
+
+.ui-avatargroup-sublabel {
+  font-weight: 400;
+  color: var(--ui-color-grey40);
+}

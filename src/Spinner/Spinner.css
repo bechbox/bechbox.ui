@@ -1,0 +1,25 @@
+.ui-spinner {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: uiSpinner 1s linear infinite;
+}
+
+@keyframes uiSpinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ui-spinner--light {
+  border: 4px solid var(--ui-color-grey20);
+  border-top: 4px solid white;
+}
+
+.ui-spinner--dark {
+  border: 4px solid var(--ui-color-grey10);
+  border-top: 4px solid var(--ui-color-dark);
+}
