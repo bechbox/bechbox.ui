@@ -32,8 +32,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/bechbox/bechbox.ui"
-  },
-  "publishConfig": {
-    "@bechbox:registry": "https://npm.pkg.github.com"
   }
 }
